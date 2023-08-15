@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 300px;
+    width: 400px;
+}
+
+.site-name {
+    margin-left: 0;
+    margin-top: 10px;
+    color: #f5f5f5;
+}
+
+#top-menu {
+    background-color: #333;
+    padding: 10px;
+}
+
+#top-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#top-menu li {
+    margin-right: 10px;
+}
+
+#top-menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+section#main-container {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+section#main-container h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+section#main-container p {
+    font-size: 18px;
+    color: #777;
+    line-height: 1.6;
+}
+
+footer#main-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Hover Effect for Links */
+#top-menu a:hover,
+.btn:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+
+
+
+ 
+
+
+
+ /* Welcome.css */
+
+.column-wrap::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+  }
+  
+  #side-menu {
+    width: 200px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  #main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  #right-column {
+    width: 200px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+   
+  

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Educational Site - Login</title>
+    <link rel="stylesheet" type="text/css" href="courses.css">
+    <link rel="stylesheet" type="text/css" href="CW login form.html">
+</head>
+<body>
+    <header>
+        <header id="top-header" class="column-wrap">
+            <img src="img/Kettex.png" alt="Main Banner" title="Main Banner">
+        </header>
+    </header>
+
+    <main>
+        <p>Welcome to the Online Educational Site!</p>
+        <p>Log in to access your account and explore a world of knowledge.</p>
+
+        <form id="loginForm" action="#" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit" class="btn">Login</button>
+        </form>
+
+        <p>If you don't have an account yet, please <a href="signup.html">sign up here</a>.</p>
+        <p>Forgot your password? <a href="password_reset.html">Reset it here</a>.</p>
+    </main>
+
+    <footer>
+        <a href="Welcome page.html" class="btn">Back to Home</a>
+    </footer>
+
+    <script>
+        const loginForm = document.getElementById('loginForm');
+
+        loginForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            
+
+            // Save the data to local storage
+            localStorage.setItem('email', email);
+            localStorage.setItem('password', password);
+
+            // Redirect to the next page (courses.html)
+            window.location.href = 'course_section.html';
+        });
+    </script>
+</body>
+</html>

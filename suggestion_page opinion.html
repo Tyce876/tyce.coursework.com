@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="courses.css">
+    <title>Category Information</title>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <div class="container">
+        <div class="category-info">
+            <h2>Write your opinion here</h2>
+            <p>
+               
+            </p>
+        </div>
+        <div class="submission-form">
+            <h2>Submit Your Idea</h2>
+            <form action="submit_handler.php" method="post" onsubmit="showAlert()">
+                <input type="hidden" name="category" value="<?php echo $_GET['category']; ?>">
+                <label for="idea">Your Idea:</label>
+                <textarea id="idea" name="idea" rows="4" cols="50"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        function showAlert() {
+            alert("Thank you for submitting your idea!");
+        }
+    </script>
+    <br>
+     <a href="Welcome page.html" class="btn">Back to Home</a>
+</body>
+</html>
+

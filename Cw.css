@@ -1,0 +1,192 @@
+.top-header
+{
+  overflow: hidden;
+}
+
+
+
+
+
+.top-menu {
+    background-color: #333;
+    padding: 10px;
+  }
+
+  
+  
+  .top-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .top-menu ul li {
+    margin-right: 10px;
+  }
+  
+  .top-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .top-menu ul li a:hover {
+    background-color: #555;
+  }
+  
+  .top-menu ul li.menu-info {
+    color: #fff;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+  /* Banner size*/
+ img
+  {
+    
+    height: 200px;
+    
+  }
+
+#main-container
+{
+    background-color: light rgb(245, 136, 172);
+}
+  
+
+/*courses*/
+
+#side-menu {
+  width: 200px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+#side-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#side-menu li {
+  margin-bottom: 10px;
+}
+
+#side-menu a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+#side-menu a:hover {
+  background-color: #ddd;
+}
+  
+/* Welcome.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.column-wrap {
+  display: flex;
+}
+
+/* Top Menu */
+#top-menu {
+  background-color: #333;
+  padding: 10px;
+}
+
+#top-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#top-menu li {
+  display: inline;
+}
+
+#top-menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Main Container */
+#main-container {
+  padding: 10px;
+}
+
+/* Side Menu */
+#side-menu {
+  width: 200px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+#side-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#side-menu li {
+  margin-bottom: 10px;
+}
+
+#side-menu a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+#side-menu a:hover {
+  background-color: #ddd;
+}
+
+/* Course Information */
+.course-info {
+  display: none;
+}
+
+.course-info.active {
+  display: block;
+}
+
+/* Main Content */
+#main-content {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Right Column */
+#right-column {
+  flex-basis: 200px;
+  padding: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+/* Parish Names */
+#parish-names table {
+  border-collapse: collapse;
+}
+
